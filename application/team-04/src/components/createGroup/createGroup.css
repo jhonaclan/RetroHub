@@ -1,0 +1,71 @@
+/* createGroup.css */
+.create-group-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.create-group-container h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group input[type="file"] { /* Include input[type="file"] style */
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group input[type="file"] { /* Style for group image input */
+  display: block;
+  margin-top: 0.2rem; /* Add some top margin for spacing */
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem; /* Added margin to separate buttons from form fields */
+}
+
+.create-btn {
+  display: block;
+  width: 48%; /* Adjust the width as needed */
+  padding: 0.5rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-btn:hover {
+  background-color: #0056b3;
+}
+
+.cancel-btn {
+  display: block;
+  width: 48%; /* Adjust the width as needed */
+  padding: 0.5rem;
+  border: none;
+  background-color: #ccc;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: #b3b3b3;
+}

@@ -1,0 +1,51 @@
+/* friendsListSideBar.css */
+
+/* The main container for the sidebar, initially positioned off-screen */
+.sidebar {
+    position: fixed; /* Fixed position to stay in view */
+    top: 0; /* Align to the top */
+    right: -350px; /* Positioned off the screen to the right */
+    width: 250px; /* Width of the sidebar */
+    height: 100%; /* Full height to cover the screen from top to bottom */
+    background: #333; /* Dark background for the sidebar */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2); /* Shadow for depth effect */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the content */
+    transition: right 0.3s ease-in-out; /* Smooth transition for opening/closing */
+    z-index: 5; /* Z-index for layering order */
+  }
+  
+  /* Class to control the visibility of the sidebar */
+  .sidebar.open {
+    right: 0; /* Position the sidebar on the screen */
+  }
+  
+  /* Styles for the sidebar heading */
+  .sidebar h2 {
+    margin-top: 0; /* Remove the top margin */
+  }
+  
+  /* List styles for displaying friends */
+  .sidebar ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Individual list item styles */
+  .sidebar li {
+    padding: 10px 0; /* Padding for each list item */
+    border-bottom: 1px solid #444; /* Separator between items */
+  }
+  
+  /* Button style for closing the sidebar */
+  .close-btn {
+    background: none; /* Transparent background */
+    border: none; /* No border */
+    color: white; /* Button text color */
+    font-size: 30px; /* Size of the close button */
+    cursor: pointer; /* Pointer cursor on hover */
+    position: absolute; /* Absolute position within the sidebar */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+  }
+  

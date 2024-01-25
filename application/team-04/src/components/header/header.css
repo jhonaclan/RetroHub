@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-links li {
+  padding: 0 10px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.nav-links li a:hover, .nav-links li a:focus {
+  background-color: #555;
+}
+
+.search-login {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-login input[type="text"] {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 3opx;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  position: absolute; /* Keep it as absolute */
+  top: 100%; /* Position it right below the .search-login container */
+  right: 0; /* Align it to the right */
+  z-index: 1000; /* Ensure it's on top of other elements */
+  background: #fff; 
+  border-radius: 4px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: auto; 
+}
+
+/* Show the dropdown content when the user icon is clicked */
+.search-login .login-icon:focus + .dropdown-content,
+.search-login .login-icon:hover + .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+}
+
+.dropdown-content a,
+.dropdown-content div {
+  display: block; /* Make them block elements to fill the width of .dropdown-content */
+  padding: 8px 12px;
+  color: #333; /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  cursor: pointer;
+}
+
+.dropdown-content a:hover,
+.dropdown-content div:hover {
+  background-color: #f0f0f0; /* Hover background color */
+}
+

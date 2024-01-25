@@ -1,0 +1,98 @@
+/* settings.css */
+
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif; /* Adjust as per your default font */
+}
+
+.settings-container h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.settings-form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1.5rem; /* Increased gap between form groups */
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input[type='text'],
+.form-group input[type='email'],
+.form-group input[type='password'],
+.form-group select {
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  padding: 1rem; /* Increased padding for larger text field boxes */
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.form-group input[type='text']:focus,
+.form-group input[type='email']:focus,
+.form-group input[type='password']:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Adjust the last child margin in a row only for inputs */
+.form-row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.cancel-btn,
+.save-btn {
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.save-btn {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Additional styles for hover effects on buttons */
+.cancel-btn:hover,
+.save-btn:hover {
+  opacity: 0.9;
+}

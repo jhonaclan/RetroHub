@@ -1,0 +1,75 @@
+.forums {
+  padding: 20px;
+}
+
+.forums h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.create-post-button {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.create-post-button:hover {
+  background-color: #0056b3;
+}
+
+.example-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.example-post {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.example-post h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.example-post p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.example-post .author {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.example-post .timestamp {
+  color: #888;
+}
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Add more styling as needed */

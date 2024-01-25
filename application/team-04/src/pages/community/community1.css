@@ -1,0 +1,124 @@
+/* Community1*/
+.community1-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.community1-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.community-description {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.community-tags .tag {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.community-rules {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.community-rules h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.community-rules ul {
+  list-style: inside;
+}
+
+.video-box {
+  margin-bottom: 20px;
+}
+
+/* Increase the video size */
+.video-box iframe {
+  width: 80%;
+}
+
+.reaction-box {
+  margin-bottom: 20px;
+}
+
+.reaction-box button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reaction-box button:hover {
+  background-color: #0056b3;
+}
+
+.chat-box {
+  border-top: 2px solid #eee;
+  padding-top: 20px;
+}
+
+.chat-box h2 {
+  margin-bottom: 15px;
+}
+
+.chat-messages {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #218838;
+}
+
+/* Optional: Featured Topics Styling */
+.featured-topics {
+  margin-top: 20px;
+}
+
+.featured-topics h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

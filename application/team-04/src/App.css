@@ -1,0 +1,35 @@
+/* App.css or your main CSS file */
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  /* Add padding or margins as needed */
+}
+
+/* Header background */
+.header {
+  background-color: #333; /* Adjust the color to match your header */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333; /* Adjust to match your header */
+  color: white;
+  /* Other footer styles */
+}
+
+/* Ensure the body takes full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Background matching the header */
+body {
+  background-color: #f4f4f4; /* This should complement your header */
+  /* Add any other global styles here */
+}

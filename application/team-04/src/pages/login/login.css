@@ -1,0 +1,89 @@
+/* login.css */
+.login-container {
+  max-width: 400px;
+  margin: 20vh auto; /* Adjusted margin to center vertically */
+  padding: 40px; /* Adjusted padding for content spacing */
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+}
+
+.login-container h2 {
+  margin-bottom: 20px; /* Increased margin-bottom for spacing */
+  font-size: 24px;
+  color: #333;
+}
+
+.login-container p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555; /* Adjusted color for consistency */
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px; /* Increased margin-bottom for spacing */
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #adadad; /* Matched border style */
+  outline: none;
+  font-size: 16px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Increased margin-bottom for spacing */
+}
+
+.checkbox-container label {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #555; /* Adjusted color for consistency */
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #003f80;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+.signup-text {
+  text-align: center;
+}
+
+.signup-text label {
+  font-size: 14px;
+  color: #555; /* Adjusted color for consistency */
+}
+
+.signup-text a {
+  text-decoration: none;
+  color: #0056b3;
+}

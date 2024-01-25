@@ -1,0 +1,29 @@
+.team-member {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-member-name {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.team-member-role {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.team-member-bio {
+    font-size: 1em;
+    color: #555;
+}

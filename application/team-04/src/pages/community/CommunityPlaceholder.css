@@ -1,0 +1,19 @@
+.community-placeholder {
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    height: 150px; /* Set a fixed height */
+    width: 150px; /* Set a fixed width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(204, 204, 204, 0.5); /* Greyed-out background color with opacity */
+    color: #ccc; /* Text color */
+  }
+  
+  @media (max-width: 768px) {
+    .community-placeholder {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  
